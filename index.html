@@ -51,8 +51,56 @@
         padding: 15px 0;
         margin-top: 40px;
       }
+    nav {
+      background-color: #333;
+      padding: 10px 20px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    body {
+      padding-top: 60px; /* space for navbar */
+    }
+
     </style>
   </head>
+  <nav>
+    <ul>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#projects">my skills:pythonist, love django, ask me about data </a></li>
+      <li><a href="#contact">0709876543</a></li>
+    </ul>
+  </nav>
+
   <body>
     <header>
       <h1>Hello, I'm Shanny 👋</h1>
